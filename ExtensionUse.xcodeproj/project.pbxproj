@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72C7FFC71ADE440D0084EEB4 /* RegistationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C7FFC61ADE440D0084EEB4 /* RegistationViewController.m */; };
+		72C7FFCA1ADE441F0084EEB4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C7FFC91ADE441F0084EEB4 /* LoginViewController.m */; };
 		A923A9DA1A372AF9009121A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A923A9D91A372AF9009121A3 /* main.m */; };
 		A923A9DD1A372AF9009121A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A923A9DC1A372AF9009121A3 /* AppDelegate.m */; };
 		A923A9E01A372AF9009121A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A923A9DF1A372AF9009121A3 /* ViewController.m */; };
@@ -28,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		72C7FFC51ADE440D0084EEB4 /* RegistationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistationViewController.h; sourceTree = "<group>"; };
+		72C7FFC61ADE440D0084EEB4 /* RegistationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistationViewController.m; sourceTree = "<group>"; };
+		72C7FFC81ADE441F0084EEB4 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		72C7FFC91ADE441F0084EEB4 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		A923A9D41A372AF9009121A3 /* ExtensionUse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExtensionUse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A923A9D81A372AF9009121A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A923A9D91A372AF9009121A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -88,6 +94,10 @@
 				A923A9DC1A372AF9009121A3 /* AppDelegate.m */,
 				A923A9DE1A372AF9009121A3 /* ViewController.h */,
 				A923A9DF1A372AF9009121A3 /* ViewController.m */,
+				72C7FFC51ADE440D0084EEB4 /* RegistationViewController.h */,
+				72C7FFC61ADE440D0084EEB4 /* RegistationViewController.m */,
+				72C7FFC81ADE441F0084EEB4 /* LoginViewController.h */,
+				72C7FFC91ADE441F0084EEB4 /* LoginViewController.m */,
 				A923A9E11A372AF9009121A3 /* Main.storyboard */,
 				A923A9E41A372AF9009121A3 /* Images.xcassets */,
 				A923A9E61A372AF9009121A3 /* LaunchScreen.xib */,
@@ -226,7 +236,9 @@
 			files = (
 				A923A9E01A372AF9009121A3 /* ViewController.m in Sources */,
 				A923A9DD1A372AF9009121A3 /* AppDelegate.m in Sources */,
+				72C7FFC71ADE440D0084EEB4 /* RegistationViewController.m in Sources */,
 				A923A9DA1A372AF9009121A3 /* main.m in Sources */,
+				72C7FFCA1ADE441F0084EEB4 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
